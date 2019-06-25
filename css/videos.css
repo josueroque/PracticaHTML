@@ -97,26 +97,33 @@ article:hover{
   .tooltip-detalle {
     position: relative;
     text-align: center;
-    width: 80vw;
-    margin-top: -10vw;
-    height: 80vw;
-    max-width: 100%;
-    max-height: 100%;
+     width: 80vw;
+     
+      margin-top: 2vw;
+    margin-left: 0;
+      /* height: 100vw; */
+    max-width:80%;
+
+     max-height: 70%;
     display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    /* border-bottom: 1px dotted black; If you want dots under the hoverable text */
     }
               
               /* Tooltip text */
     .tooltip-detalle .tooltiptext-detalle {
     /* visibility: hidden; */
-    width: 40rem;
-    background-color:transparent;
-    color:black;
+      width: 100%;
+    margin-top: 15%;
+    height: 40vw;
+    /* max-width: 100%;
+    max-height: 100%; */
+    background-color:rgba(255,255,255,0.2);
+    color:white;
      
     text-align: justify;
     font-size: large;
-    margin-left: 3%;
-margin-top: 20vw;
+    margin-left: 0%;
+
     padding: 5px 0;
     border-radius: 6px;
                
@@ -125,33 +132,9 @@ margin-top: 20vw;
     z-index: 1;
     }
               
-    /* Show the tooltip text when you mouse over the tooltip container */
-    .tooltip-detalle .tooltiptext-detalle {
-    visibility: visible;
-    }
+  
   
 
-  /* .video-container {
-    height: 500px;
-    width: 500px;
-    overflow: hidden;
-    position: relative;
-    z-index: -1;
-
-}
-
-.video-container h2{
-z-index: 1;
-}
-.video-container video {
-  min-width: 100%;
-  min-height: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-25%) translateY(-50%);
-}
-   */
-
+  
 
 
