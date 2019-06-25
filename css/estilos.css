@@ -1,0 +1,95 @@
+*, *:after, *:before {
+
+  box-sizing: border-box;
+
+}
+
+​
+body {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+ .login  {
+    /* background-image:url("../img/streaming-tv3.png") ;  */
+/*         background-repeat: no-repeat;
+    background-color:rgba(255,0,0,0.6);
+    background-size: 100% 120%; */
+ }
+ 
+  .div-login  {
+  width: 100vw;
+  height: 100vw;
+  display: block;
+  position: relative;
+  padding: 0;
+  margin-top: 0;
+
+}
+
+.div-login::after {
+  content: "";
+  background: url("../img/streaming-tv3.png");
+  background-size: 100% 120%; 
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  position: absolute;
+  z-index: -1;   
+} 
+
+ .fieldset{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color:rgb(199, 59, 16);
+  width: 480px;
+  height: 360px;
+  text-align: center;
+margin-left: 30%;
+  margin-top: 15vw;
+  background-color: black;
+  opacity: 0.8;
+  border: none;
+ 
+ }
+
+ .fieldset h2{
+   color:white;
+font-family: Georgia, 'Times New Roman', Times, serif }
+
+input{
+  background-color: darkgray; 
+  border-radius: 5px 5px 5px 5px;
+border: 0px solid #000000;
+width: 320px;
+height: 40px;
+}
+
+#login-form a {
+
+  text-decoration: none;
+  font-weight: bold;
+
+}
+ #login-form a input{
+
+  background-color:darkred !important; 
+
+  }
+
+
+
+h1{
+    color: red;
+ /*   font-size: 75px;*/
+box-sizing: content-box;
+top: 0;
+padding: 0;
+
+}
+

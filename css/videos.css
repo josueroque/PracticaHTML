@@ -1,0 +1,84 @@
+.grid{
+ 
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0rem;
+  align-items                     :baseline;
+  
+}
+
+/* h3{
+  display: block;
+  margin-top: 0;
+  padding: 0;
+  top: 0;
+  margin-bottom:0.5rem;
+  margin-top: 0;
+  
+} */
+
+.grid video{
+border: solid 5px;
+/* margin-top: 400; */
+width:280px; 
+height:160px;  
+
+}
+
+.grid article{
+  box-sizing: border-box;
+}
+
+article>div{
+ display: none;
+}
+
+
+.tooltip{
+ display: none;
+}
+
+article p{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  /* position: absolute; */
+}
+
+article:hover{
+  /* border: blue 1px solid */
+}
+.grid video:hover{
+  /* width:250%; 
+  height:250%;  */
+  transition: 1s ease-in;
+  color: blue;
+  transform:translate(0px,0.2px);
+}
+
+            /* Tooltip container */
+            .tooltip {
+              position: relative;
+              display: inline-block;
+              border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+            }
+            
+            /* Tooltip text */
+            .tooltip .tooltiptext {
+              visibility: hidden;
+              width: 120px;
+              background-color: black;
+              color: #fff;
+              text-align: center;
+              padding: 5px 0;
+              border-radius: 6px;
+             
+              /* Position the tooltip text - see examples below! */
+              position: absolute;
+              z-index: 1;
+            }
+            
+            /* Show the tooltip text when you mouse over the tooltip container */
+            .tooltip:hover .tooltiptext {
+              visibility: visible;
+            }

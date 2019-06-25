@@ -1,0 +1,75 @@
+/*HEADER */
+
+.header{
+     height: 10vh;   
+    /* background-image: url(../img/images3.jpg);  */
+  /* background-color: lightskyblue; */
+/*     background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+    
+  .header > h1{
+
+      font-weight:100;
+      margin-left: 55vw;
+     
+  }
+  
+  header > .tagline{
+    margin-left: 55vw;
+  }
+  
+  .header > h1 >span{
+  display: block;
+  font-weight: 700;
+  font-family: juego-tronos;
+  }
+
+
+
+  .slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+  }
+  
+  .slider li{
+    width: 100%;
+    list-style: none;
+  
+  }
+  
+  .slider img{
+    width:100%;
+    height:50vw;
+    
+  }
+  
+  @keyframes cambio{
+    0%{margin-left:0;}
+    20%{margin-left:0;}
+  
+    25%{margin-left: -100% ;}
+    45%{margin-left: -100% ;}
+  
+    50%{margin-left: -200% ;}
+    70%{margin-left: -200% ;}
+  
+    75%{margin-left: -300% ;}
+    100%{margin-left: -300% ;}
+  
+    
+  }

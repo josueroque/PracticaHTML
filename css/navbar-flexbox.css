@@ -1,0 +1,43 @@
+
+.navbar{
+
+    background-color: White;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    }
+    .menu{
+        list-style-type: none;
+    margin: 0;
+        flex:1 100%;
+
+        display: flex;
+        justify-content:flex-end 
+        }
+
+    .menu-items >a{
+            text-decoration: none;
+            color:#222222;
+            padding: 1rem;
+            display: block;
+            font-weight: bold;
+    }
+    .menu-items >a:hover{
+        text-decoration: none;
+        color:azure;
+        background-color :#2a0f6b;
+    }
+
+    .logo{
+       /*  align-self:center; */ 
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex: 150px;
+    margin-left: 1rem;
+    margin-top: 1vw;
+    font-family: juego-tronos, 'Times Mew Roman';
+        
+}
