@@ -33,6 +33,14 @@ article>div{
  display: none;
 }
 
+article>a{
+  display:block;
+  margin-bottom:1rem;
+  text-align: center;
+  font-size: x-large;
+  text-decoration: none;
+  
+}
 
 .tooltip{
  display: none;
@@ -59,6 +67,7 @@ article:hover{
             /* Tooltip container */
 .tooltip {
   position: relative;
+  text-align: center;
   display: inline-block;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
   }
@@ -66,10 +75,12 @@ article:hover{
             /* Tooltip text */
   .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
+  width: 15rem;
+  background-color:rgba(44, 11, 119, 0.8);
+  color:black;
   text-align: center;
+  font-size: large;
+  margin-left: 10%;
   padding: 5px 0;
   border-radius: 6px;
              
@@ -82,3 +93,65 @@ article:hover{
   .tooltip:hover .tooltiptext {
   visibility: visible;
   }
+
+  .tooltip-detalle {
+    position: relative;
+    text-align: center;
+    width: 80vw;
+    margin-top: -10vw;
+    height: 80vw;
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    }
+              
+              /* Tooltip text */
+    .tooltip-detalle .tooltiptext-detalle {
+    /* visibility: hidden; */
+    width: 40rem;
+    background-color:transparent;
+    color:black;
+     
+    text-align: justify;
+    font-size: large;
+    margin-left: 3%;
+margin-top: 20vw;
+    padding: 5px 0;
+    border-radius: 6px;
+               
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    }
+              
+    /* Show the tooltip text when you mouse over the tooltip container */
+    .tooltip-detalle .tooltiptext-detalle {
+    visibility: visible;
+    }
+  
+
+  /* .video-container {
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+
+}
+
+.video-container h2{
+z-index: 1;
+}
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-25%) translateY(-50%);
+}
+   */
+
+
+
