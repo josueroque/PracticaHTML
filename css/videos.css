@@ -3,7 +3,7 @@
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 0rem;
-  align-items                     :baseline;
+  align-items  :baseline;
   
 }
 
@@ -132,6 +132,9 @@ article:hover{
     z-index: 1;
     }
               
+    .tooltip-detalle:hover .info-general {
+      visibility: visible;
+      }
   
   
 
