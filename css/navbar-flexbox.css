@@ -1,3 +1,11 @@
+:root {
+    --max-width: 900px;
+    --text-color: #222222;
+    --bg-color: white;
+    --bg-inverted: #EFEFFE;
+  
+  }
+
 
 .navbar{
 
@@ -15,7 +23,7 @@
         flex:1 100%;
 
         display: flex;
-        justify-content:flex-end 
+        justify-content:flex-end ;
         }
 
     .menu-items >a{
@@ -93,7 +101,7 @@
       width: 40%;
     }
   
-    .navbar-list {
+    .menu {
       display: none;
       flex-direction: column;
       margin-top: 51px;
@@ -103,7 +111,7 @@
       padding-left: 0;
     }
     
-    .navbar-list li a {
+    .menu li a {
       color: var(--bg-color);
       text-align: center;
     }
@@ -112,13 +120,15 @@
       position: fixed;
       top: 0;
       left: 0;
-      width: 100%;
+      width: 50%;
       text-align: center;
       background-color: white;
       height: 51px;
       line-height: 51px;
       font-size: 1.5em;
-      margin: 0;
+      margin-left: 25%;
+      /* margin: 0; */
+    
     }
   
     #burger-checkbox {
@@ -131,7 +141,7 @@
       opacity: 0;
     }
   
-    #burger-checkbox:checked ~ .navbar-list {
+    #burger-checkbox:checked ~ .menu {
       display: inherit;
     }
     
