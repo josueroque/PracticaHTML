@@ -4,7 +4,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 0rem;
   align-items  :baseline;
-  
+  /* top: 0; */
+  margin-top: 0;
 }
 
 /* h3{
@@ -64,15 +65,14 @@ article:hover{
   transform:translate(0px,0.2px);
 }
 
-            /* Tooltip container */
 .tooltip {
   position: relative;
   text-align: center;
   display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  border-bottom: 1px dotted black; 
   }
             
-            /* Tooltip text */
+  
   .tooltip .tooltiptext {
   visibility: hidden;
   width: 15rem;
@@ -84,12 +84,12 @@ article:hover{
   padding: 5px 0;
   border-radius: 6px;
              
-  /* Position the tooltip text - see examples below! */
+
   position: absolute;
   z-index: 1;
   }
             
-  /* Show the tooltip text when you mouse over the tooltip container */
+
   .tooltip:hover .tooltiptext {
   visibility: visible;
   }
@@ -99,14 +99,14 @@ article:hover{
     text-align: center;
      width: 80vw;
      
-      margin-top: 2vw;
+      margin-top: 0vw;
     margin-left: 0;
       /* height: 100vw; */
     max-width:80%;
 
      max-height: 70%;
     display: inline-block;
-    /* border-bottom: 1px dotted black; If you want dots under the hoverable text */
+  
     }
               
               /* Tooltip text */
@@ -127,7 +127,7 @@ article:hover{
     padding: 5px 0;
     border-radius: 6px;
                
-    /* Position the tooltip text - see examples below! */
+    
     position: absolute;
     z-index: 1;
     }
@@ -136,6 +136,7 @@ article:hover{
       visibility: visible;
       }
   
+   
   
 
   

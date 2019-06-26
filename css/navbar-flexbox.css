@@ -41,26 +41,30 @@
     font-family: juego-tronos, 'Times Mew Roman';
         
 }
+.logo img{
+    width: 80%;
+    height: 80%;
+}
 
 .navbar-detalle{
-
-    background-color: transparent;
+        
+    background-color: White;
     width: 100%;
-    position: relative;
-    margin-top: 0;
+    position: fixed;
+    margin-top: -5vw;
+    margin-left: 0%;
     z-index: 1;
     display: flex;
-    align-items:flex-end;
-    margin-top: -20;
-
+    align-items: center;
+    margin-bottom: 0;
     }
     .menu-detalle{
         list-style-type: none;
     margin: 0;
         flex:1 100%;
-        margin-top:1.5rem;
+
         display: flex;
-        justify-content:center;
+        justify-content:center; 
         }
 
         .menu-items-detalle >a{
@@ -74,15 +78,83 @@
 .detalle{
     margin-left: 0;
     padding-left:0;
+    margin-top: 5vw;
+    position: relative;
     /* height: 85vw;
     max-height: 85vw !important; */
 }
 
-    /* .tooltip-detalle{
-        height: 85vw;
-        max-height: 85%;
+#burger-checkbox {
+    display: none;
+  }
+  
+  @media all and (max-width: 768px) {
+    .navbar {
+      width: 40%;
     }
-    .tooltip-detalle video{
-height: 85vw;
-max-height: 85%;
-    } */
+  
+    .navbar-list {
+      display: none;
+      flex-direction: column;
+      margin-top: 51px;
+      height: 100vh;
+      justify-content: flex-start;
+      background-color: var(--text-color);
+      padding-left: 0;
+    }
+    
+    .navbar-list li a {
+      color: var(--bg-color);
+      text-align: center;
+    }
+  
+    .navbar .logo {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      height: 51px;
+      line-height: 51px;
+      font-size: 1.5em;
+      margin: 0;
+    }
+  
+    #burger-checkbox {
+      z-index: 3;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 51px;
+      height: 51px;
+      opacity: 0;
+    }
+  
+    #burger-checkbox:checked ~ .navbar-list {
+      display: inherit;
+    }
+    
+    .burger-label {
+      z-index: 3;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 51px;
+      height: 51px;
+      font-size: 42px;
+    }
+  
+    .burger-label:before {
+      content: "";
+      position: absolute;
+      background: gray;
+      width: 1em;
+      height: .15em;
+      left: .1em;
+      top: .25em;
+      box-shadow:
+        0 .25em 0 0 gray,
+        0 .5em 0 0 gray;
+    }  
+  }

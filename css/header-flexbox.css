@@ -1,12 +1,13 @@
 /*HEADER */
+#header-detalle{
+ 
+    height: 22vh;   
+ 
+ }
+
 
 .header{
      height: 10vh;   
-    /* background-image: url(../img/images3.jpg);  */
-  /* background-color: lightskyblue; */
-/*     background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover; */
     display: flex;
     flex-direction: column;
     justify-content: center;
