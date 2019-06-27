@@ -14,7 +14,7 @@ border: solid 5px;
 /* margin-top: 400; */
 /* width:280px; 
 height:160px;   */
-width: 24vw;
+width: 23vw;
 
 }
 
@@ -128,7 +128,20 @@ article:hover{
       visibility: visible;
       }
   
-   
+      @media all and (max-width: 1024px) {
+        .grid{
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 1.5rem;
+      }
+      .grid video{
+        border: solid 4px;
+        /* margin-top: 400; */
+        /* width:280px; 
+        height:160px;   */
+        width: 30vw;
+        
+        }
+      }
   
       @media all and (max-width: 768px) {
         .grid{
@@ -136,11 +149,26 @@ article:hover{
         grid-gap: 0.1rem;
       }
       .grid video{
-        border: solid 5px;
+        border: solid 3px;
         /* margin-top: 400; */
         /* width:280px; 
         height:160px;   */
         width: 45vw;
+        
+        }
+      }
+
+      @media all and (max-width: 480px) {
+        .grid{
+        grid-template-columns: 1fr ;
+        grid-gap: 0.05rem;
+      }
+      .grid video{
+        border: solid 1.5px;
+        /* margin-top: 400; */
+        /* width:280px; 
+        height:160px;   */
+        width: 90vw;
         
         }
       }
