@@ -22,10 +22,21 @@
              <input type="checkbox" id="burger-checkbox">
              <label for="burger-checkbox" class="burger-label"></label>
        <ul class="menu">
+           <li class="menu-items"> 
+                <form class="search">
+                        <div>
+                          <input type="search" id="mySearch" name="q"
+                          placeholder="Buscar en el sitio..." size="30">
+                          <button>Buscar</button>
+                        </div>
+                      </form>
+            </li>
            <li class="menu-items"><a href="#peliculas" class="link" target="">Peliculas</a></li>
            <li class="menu-items"><a href="#series" class="link" target="">Series</a></li>
-           <li class="menu-items"><a href="" class="link" target="">Novedades</a></li>
+           <li class="menu-items"><a href="#novedades" class="link" target="">Novedades</a></li>
            <li class="menu-items"><a href="index.html" class="link" target="">Salir</a></li>
+
+
        </ul> 
 
    </nav>
@@ -40,7 +51,7 @@
 </header>  
 <main>
     </br>
-    <section class="Peliculas" id="Peliculas">
+    <section id="peliculas">
     </br> </br> </br>
         <h1>Peliculas</h1>
         <div class="grid">
@@ -53,7 +64,7 @@
                             <p>Los Heroes Mas Poderosos del Planeta</p>
                    
                         </span>  
-            <video controls class="tooltip"  poster="img/avengers.jpg" src="video/Avengers.mp4">
+            <video controls  poster="img/avengers.jpg" src="video/Avengers.mp4">
             </video>
 
             </div>    
@@ -75,25 +86,31 @@
     </article>
         <article style="align-items: baseline" >
             <a href="Detalle.html">Eternal Sunshine</a> 
-                <div  >
+                <div class="tooltip" >
+                    <span class="tooltiptext" >
                         <p style="border: 0">Año:2011</p>
                         <p>Clasificación:Todo Publico</p>
-                        <p></p>
+                        <p>Una historia de ciencia ficcion y amor</p>
+                    </span>
+                    <video controls class="tooltip"  poster="img/EternalSunshine.jpg" src="video/Avengers.mp4">
+                    </video> 
                 </div>   
-                <video controls poster="img/EternalSunshine.jpg" src="video/Avengers.mp4">
-                 </video>
+
          
    </article>
    <article style="align-items: baseline" >
-    <a href="Detalle.html">Anger Management</a> 
-    <div  >
-            <p style="border: 0">Año:2011</p>
-            <p>Clasificación:Todo Publico</p>
-            <p></p>
-    </div>   
-    <video controls poster="img/EternalSunshine.jpg" src="video/Avengers.mp4">
-     </video>
+        <a href="Detalle.html">Anger Management</a> 
+            <div class="tooltip" >
+                <span class="tooltiptext" >
+                    <p style="border: 0">Año:2009</p>
+                    <p>Clasificación:Mayores de 13 años</p>
+                    <p>La ira puede venir de quien menos lo esperas</p>
+                </span>
+                <video controls class="tooltip"  poster="img/anger.jpg" src="video/Avengers.mp4">
+                </video> 
+            </div>   
 
+     
     </article>
 
 
@@ -101,28 +118,138 @@
 
 
     </section>
-    <section class="Series" id="Series">
+    <section id="series">
             <h1>Series</h1>
             <div class="grid">
-            <article>
-                    <iframe width="auto" height="auto" src="https://www.youtube.com/embed/Nw7lKivMIws"
-                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
-                     gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <article>
+                    <a href="Detalle.html">Friends</a> 
+                    <div class="tooltip">
+                            <span class="tooltiptext" >
+                                    <p style="border: 0">Año:2001</p>
+                                    <p>Clasificación:Todo Publico</p>
+                                    <p>6 amigos de New York</p>
+                           
+                                </span>  
+                    <video controls class="tooltip"  poster="img/friends.jpg" src="video/Avengers.mp4">
+                    </video>
+        
+                    </div>    
+        
             </article>
-            <article>
-                    <iframe width="auto" height="auto" src="https://www.youtube.com/embed/Nw7lKivMIws"
-                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
-                     gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <article>
+                    <a href="Detalle.html">Walker Texas Ranger</a> 
+                    <div class="tooltip">
+                        <span class="tooltiptext" >
+                            <p style="border: 0">Año:1998</p>
+                            <p>Clasificación:Todo Publico</p>
+                            <p>Chuck Norris en todo su esplendor</p>
+                   
+                        </span> 
+                        <video controls class="tooltip" poster="img/walker.jpg" src="video/johnwick.mp4">
+                        </video>
+                     </div>   
+        
             </article>
-            <article>
-                    <iframe width="auto" height="auto" src="https://www.youtube.com/embed/Nw7lKivMIws"
-                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
-                     gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <article style="align-items: baseline" >
+                    <a href="Detalle.html">The Wood Wife</a> 
+                        <div class="tooltip" >
+                            <span class="tooltiptext" >
+
+                                <p style="border: 0">Año:2011</p>
+                                <p>Clasificación:Todo Publico</p>
+                                <p>Esposa y profesional ejemplar</p>
+                            </span>   
+                            <video class="tooltip" controls poster="img/wife.jpg" src="video/Avengers.mp4">
+                            </video>
+                        </div>   
+
+                 
+           </article>
+           <article style="align-items: baseline" >
+            <a href="Detalle.html">Supergirl</a> 
+            <div class="tooltip" >
+                <span class="tooltiptext" >
+                    <p style="border: 0">Año:2017</p>
+                        <p>Clasificación:Todo Publico</p>
+                        <p>Una mujer extraordinaria con un trabajo normal</p>
+                </span>    
+                <video class="tooltip" controls poster="img/supergirl.jpg" src="video/Avengers.mp4">
+                </video>
+   
+            </div>   
+        
             </article>
     
         </div>
         </section>
-    
+        <section id="novedades">
+            </br> 
+                <h1>Novedades</h1>
+                <div class="grid">
+                <article>
+                    <a href="Detalle.html">Avengers:Endgame</a> 
+                    <div class="tooltip">
+                            <span class="tooltiptext" >
+                                    <p style="border: 0">Año:2019</p>
+                                    <p>Clasificación:Todo Publico</p>
+                                    <p>Los Heroes Mas Poderosos del Planeta</p>
+                           
+                                </span>  
+                    <video controls  poster="img/avengers.jpg" src="video/Avengers.mp4">
+                    </video>
+        
+                    </div>    
+        
+            </article>
+                <article>
+                    <a href="Detalle.html">Jhon Wick</a> 
+                    <div class="tooltip">
+                        <span class="tooltiptext" >
+                            <p style="border: 0">Año:2014</p>
+                            <p>Clasificación:Mayores de 18</p>
+                            <p>¡No Toques a su Mascota!</p>
+                   
+                        </span> 
+                        <video controls poster="img/john wick.jpg" src="video/johnwick.mp4">
+                        </video>
+                     </div>   
+        
+            </article>
+                <article style="align-items: baseline" >
+                    <a href="Detalle.html">Eternal Sunshine</a> 
+                        <div class="tooltip" >
+                            <span class="tooltiptext" >
+                                <p style="border: 0">Año:2011</p>
+                                <p>Clasificación:Todo Publico</p>
+                                <p>Una historia de ciencia ficcion y amor</p>
+                            </span>
+                            <video controls class="tooltip"  poster="img/EternalSunshine.jpg" src="video/Avengers.mp4">
+                            </video> 
+                        </div>   
+        
+                 
+           </article>
+           <article style="align-items: baseline" >
+                <a href="Detalle.html">Anger Management</a> 
+                    <div class="tooltip" >
+                        <span class="tooltiptext" >
+                            <p style="border: 0">Año:2009</p>
+                            <p>Clasificación:Mayores de 13 años</p>
+                            <p>La ira puede venir de quien menos lo esperas</p>
+                        </span>
+                        <video controls class="tooltip"  poster="img/anger.jpg" src="video/Avengers.mp4">
+                        </video> 
+                    </div>   
+        
+             
+            </article>
+        
+        
+            </div>
+        
+        
+            </section>
+            
 </main>
 <footer>
 

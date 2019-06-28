@@ -46,9 +46,7 @@ article p{
   /* position: absolute; */
 }
 
-article:hover{
-  /* border: blue 1px solid */
-}
+
 .grid video:hover{
   /* width:250%; 
   height:250%;  */
@@ -61,19 +59,22 @@ article:hover{
   position: relative;
   text-align: center;
   display: inline-block;
-  border-bottom: 1px dotted black; 
+  /* border-bottom: 1px dotted black;  */
   }
             
   
   .tooltip .tooltiptext {
   visibility: hidden;
-  width: 15rem;
-  background-color:rgba(44, 11, 119, 0.8);
+  width: 85%;
+  /* background-color:rgba(44, 11, 119, 0.7); */
+  background-color:rgba(255,255,255,0.6);
   color:black;
+  
   text-align: center;
   font-size: large;
-  margin-left: 10%;
-  padding: 5px 0;
+  margin-left: 8%;
+  margin-right: 5%;
+  padding: 0px 0;
   border-radius: 6px;
              
 
