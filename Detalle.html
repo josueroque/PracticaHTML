@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Streaming</title>
+    <title>Streaming King</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/navbar.css">
@@ -17,18 +17,32 @@
 
  <header id="header-detalle" class="header">
 
-    <nav class="navbar">
-            <div class="logo">
-                    <img src="img/logo1.png" alt="">
-             </div>
-       <ul class="menu">
-           <li class="menu-items"><a href="Principal.html#peliculas" class="link" target="">Peliculas</a></li>
-           <li class="menu-items"><a href="Principal.html#peries" class="link" target="">Series</a></li>
-           <li class="menu-items"><a href="" class="link" target="">Novedades</a></li>
-           <li class="menu-items"><a href="" class="link" target="">Documentales</a></li>
-       </ul> 
-
-   </nav>
+        <nav class="navbar">
+                <div class="logo">
+                        <img src="img/logo1.png" alt="">
+                 </div>
+                 <input type="checkbox" id="burger-checkbox">
+                 <label for="burger-checkbox" class="burger-label"></label>
+           <ul class="menu">
+               <li class="menu-items"> 
+                    <form class="search">
+                            <div>
+                              <input type="search" id="mySearch" name="q"
+                              placeholder="Buscar en el sitio..." size="30">
+                              <button>Buscar</button>
+                              <span class="validity"></span>
+                            </div>
+                          </form>
+                </li>
+               <li class="menu-items"><a href="Principal.html#peliculas" class="link" target="">Peliculas</a></li>
+               <li class="menu-items"><a href="Principal.html#series" class="link" target="">Series</a></li>
+               <li class="menu-items"><a href="Principal.html#novedades" class="link" target="">Novedades</a></li>
+               <li class="menu-items"><a href="index.html" class="link" target="">Salir</a></li>
+    
+    
+           </ul> 
+    
+       </nav>
    <!-- <div class="slider">
        <ul>
            <li><img src="img/images.jpg" alt=""></li>
@@ -73,26 +87,28 @@
 
   </section>
 
+  <div class="contenedor1">
   <section id="info-general">
     <h2>Informacion General</h2>
-    <p> Avengers: Endgame (Vengadores: Endgame en España)3​ es
+    <p class="texto-detalle"> Avengers: Endgame (Vengadores: Endgame en España)3​ es
          una película de superhéroes estadounidense de 2019 
          basada en el grupo los Vengadores de Marvel Comics,
          producida por Marvel Studios y distribuida por 
          Walt Disney Studios Motion Pictures.
      </p>    
-     <p>
+     <p class="texto-detalle">
         Es una secuela directa de la película de 2018 Avengers: Infinity War
          y una continuación de The Avengers (2012) y Avengers: Age of Ultron (2015),
          siendo la vigesimosegunda película del Universo cinematográfico de Marvel (MCU, por sus siglas en inglés). 
          La cinta está dirigida por Anthony y Joe Russo, con un guion escrito por el equipo conformado por Christopher Markus 
          y Stephen McFeely, y contando con la aparición de múltiples actores de películas anteriores del Universo cinematográfico de Marvel. 
      </p>
+    </br></br>
   </section>
-</br></br>
+</div>
   <section id="resumen">
             <h2>Resumen</h2>
-            <p>La decimación causada por Thanos ha ocasionado que la mitad de la vida en
+            <p class="texto-detalle">La decimación causada por Thanos ha ocasionado que la mitad de la vida en
                el universo se desintegre y muera. Clint Barton, quien se encontraba bajo
                esto domiciliario por violar los acuerdos de Sokovia, es testigo de la 
                desaparición de su familia por ese hecho. Tres semanas después, Carol Danvers
@@ -101,19 +117,19 @@
                Títan, los lleva de regreso a la Tierra hasta el complejo de los Vengadores, 
                donde los esperan Natasha Romanoff, Bruce Banner, Steven Rogers, Rocket, Thor, Pepper Potts y James Rhodes.
              </p>    
-             <p>
+             <p class="texto-detalle">
                Mientras Tony Stark se recupera, el resto de los Vengadores localizan por medio de Nebula a un Thanos herido en un planeta al que esta llama El Jardín y deciden ir en su búsqueda, cuando estos llegan rapidamente lo enfrentan y dominan con facilidad, luego intentan recuperar las gemas con el objetivo de revertir los efectos del chasquido, cortándole la mano en la que tiene el Guantelete del Infinito. 
              </p>
           </section>
         </br></br>
     <section id="reparto">
             <h2>Reparto</h2>
-            <p>
-                    <ul>                    
-                      <li>  Robert Downey Jr. como Tony Stark / Iron Man: El líder y benefactor de Los Vengadores, que es autodescrito como un genio, multimillonario, playboy y filántropo con armaduras electromecánicas de su propia creación.5​</li>
-                       <li> Chris Evans como Steve Rogers / Capitán América: Un superhéroe fugitivo y líder de una facción de Vengadores, quien fue un veterano de la Segunda Guerra Mundial mejorado hasta la cima de la fisicalidad humana mediante un suero experimental y congelado en animación suspendida antes de despertarse en el mundo moderno.7</li>  
+            <p class="texto-detalle">
+                    <ul class="texto-detalle-ul">                    
+                       <li>Robert Downey Jr. como Tony Stark / Iron Man: El líder y benefactor de Los Vengadores, que es autodescrito como un genio, multimillonario, playboy y filántropo con armaduras electromecánicas de su propia creación.5​</li>
+                       <li>Chris Evans como Steve Rogers / Capitán América: Un superhéroe fugitivo y líder de una facción de Vengadores, quien fue un veterano de la Segunda Guerra Mundial mejorado hasta la cima de la fisicalidad humana mediante un suero experimental y congelado en animación suspendida antes de despertarse en el mundo moderno.7</li>  
                        <li>Scarlett Johansson como Natasha Romanoff / Black Widow:Una espía altamente entrenada, ex-vengadora y agente de S.H.I.E.L.D..</li>
-                       <li> Chris Hemsworth como Thor:Un Vengador y el rey de Asgard basado en la deidad mitológica nórdica homónima.</li>​
+                       <li>Chris Hemsworth como Thor:Un Vengador y el rey de Asgard basado en la deidad mitológica nórdica homónima.</li>​
                        <li>Mark Ruffalo como Bruce Banner / Hulk:Un Vengador y genio científico que, debido a haber sido expuesto a la radiación gamma, se transforma en un monstruo verde cuando se enfurece o se irrita.11​12​ El personaje concluye un arco argumental que fue establecido en Thor: Ragnarok y Avengers: Infinity War.</li>
                        <li>Jeremy Renner como Clint Barton / Hawkeye / Ronin: Maestro arquero, es conocido como «el mejor que existe», ex-vengador y agente de S.H.I.E.L.D.</li>​
             </p>

@@ -12,12 +12,8 @@ body {
   padding: 0;
 
 }
- .login  {
-    /* background-image:url("../img/streaming-tv3.png") ;  */
-/*         background-repeat: no-repeat;
-    background-color:rgba(255,0,0,0.6);
-    background-size: 100% 120%; */
- }
+
+
  
   .div-login  {
   width: 100vw;
@@ -32,7 +28,8 @@ body {
 .div-login::after {
   content: "";
   background: url("../img/streaming-tv3.png");
-  background-size: 100% 120%; 
+  background-size: 60% 80%; 
+  background-repeat: round;
   opacity: 0.8;
   top: 0;
   left: 0;
@@ -99,12 +96,28 @@ top: 0;
 padding: 0;
 
 }
-
-
+h2{
+  color: red;
+  margin-left: 5%;
+}
 #login-form p{
   text-align: center;
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+.texto-detalle{
+  text-align: justify;
+  margin-left: 8%;
+  margin-right: 6%;
+
+}
+
+.texto-detalle-ul li{
+  text-align: justify;
+  margin-left: 8%;
+  margin-right: 6%;
+
 }
 
 @media all and (max-width: 768px) {
@@ -122,6 +135,7 @@ padding: 0;
   }
   .div-login::after {
     background-image: none;
+    
   } 
   .fieldset{
     margin-left:0%;

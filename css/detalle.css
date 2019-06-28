@@ -1,0 +1,20 @@
+#info-general{
+    display: none;
+    visibility: hidden;
+    width: 85%;
+    /* background-color:rgba(44, 11, 119, 0.7); */
+    background-color:rgba(255,255,255,0.6);
+    color:darkred;
+    
+    text-align: center;
+    font-size: large;
+    margin-left: 8%;
+    margin-right: 5%;
+    padding: 0px 0;
+    border-radius: 6px;
+               
+  
+    position: absolute;
+    z-index: 1;
+  
+}

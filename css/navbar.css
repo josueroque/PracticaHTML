@@ -6,6 +6,17 @@
   
   }
 
+  /* input:invalid ~ span:after {
+    content: '✖';
+    padding-left: 5px;
+    position: absolute;
+}
+
+input:valid ~ span:after {
+    content: '✓';
+    padding-left: 5px;
+    position: absolute;
+} */
 
 .navbar{
 
@@ -86,7 +97,7 @@
 .detalle{
     margin-left: 0;
     padding-left:0;
-    margin-top: 5vw;
+    margin-top: -3vw;
     position: relative;
     /* height: 85vw;
     max-height: 85vw !important; */
