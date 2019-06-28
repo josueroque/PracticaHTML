@@ -56,11 +56,110 @@
 <nav class="navbar-detalle">
 
         <ul class="menu-detalle">
-            <li class="menu-items-detalle"><a href="#info-general"   >Informacion General</a></li>
-            <li class="menu-items-detalle"><a href="#resumen" >Sinopsis</a></li>
-            <li class="menu-items-detalle"><a href="#reparto" >Reparto</a></li>
+            <div class="contenedor1">
+                <li class="menu-items-detalle"><a href="#info-general" class="contenedor1"  >Informacion General</a></li>
+                <span id="info-general">
+                       <!-- <h2>Informacion General</h2> -->
+                                <p class="texto-detalle"> Avengers: Endgame (Vengadores: Endgame en España)3​ es
+                                     una película de superhéroes estadounidense de 2019 
+                                     basada en el grupo los Vengadores de Marvel Comics,
+                                     producida por Marvel Studios y distribuida por 
+                                     Walt Disney Studios Motion Pictures.
+                                 </p>    
+                                 <p class="texto-detalle">
+                                    Es una secuela directa de la película de 2018 Avengers: Infinity War
+                                     y una continuación de The Avengers (2012) y Avengers: Age of Ultron (2015),
+                                     siendo la vigesimosegunda película del Universo cinematográfico de Marvel (MCU, por sus siglas en inglés). 
+                                     La cinta está dirigida por Anthony y Joe Russo, con un guion escrito por el equipo conformado por Christopher Markus 
+                                     y Stephen McFeely, y contando con la aparición de múltiples actores de películas anteriores del Universo cinematográfico de Marvel. 
+                                 </p>
+                </span>
+            </div>
+            <div class="contenedor2">
+                 <li class="menu-items-detalle"><a href="#resumen" >Resumen</a></li>
+                 <span id="resumen">
+                        <p class="texto-detalle">La decimación causada por Thanos ha ocasionado que la mitad de la vida en
+                                el universo se desintegre y muera. Clint Barton, quien se encontraba bajo
+                                esto domiciliario por violar los acuerdos de Sokovia, es testigo de la 
+                                desaparición de su familia por ese hecho. Tres semanas después, Carol Danvers
+                                rescata a Nebula y a Tony Stark, quienes están varados en el espacio exterior 
+                                en la nave Milano de Quill, después de su feroz batalla contra Thanos en el planeta
+                                Títan, los lleva de regreso a la Tierra hasta el complejo de los Vengadores, 
+                                donde los esperan Natasha Romanoff, Bruce Banner, Steven Rogers, Rocket, Thor, Pepper Potts y James Rhodes.
+                              </p>    
+                              <p class="texto-detalle">
+                                Mientras Tony Stark se recupera, el resto de los Vengadores localizan por medio de Nebula a un Thanos herido en un planeta al que esta llama El Jardín y deciden ir en su búsqueda, cuando estos llegan rapidamente lo enfrentan y dominan con facilidad, luego intentan recuperar las gemas con el objetivo de revertir los efectos del chasquido, cortándole la mano en la que tiene el Guantelete del Infinito. 
+                              </p>
+                 
+                 </span>   
+            </div>
+
+            <div class="contenedor3">
+                  <li class="menu-items-detalle"><a href="#reparto" >Reparto</a></li>
+                  <span id="reparto">
+                        <p class="texto-detalle">
+                                <ul class="texto-detalle-ul">                    
+                                   <li>Robert Downey Jr. como Tony Stark / Iron Man​</li>
+                                   <li>Chris Evans como Steve Rogers / Capitán América</li>  
+                                   <li>Scarlett Johansson como Natasha Romanoff / Black Widow</li>
+                                   <li>Chris Hemsworth como Thor</li>​
+                                   <li>Mark Ruffalo como Bruce Banner / Hulk</li>
+                                   <li>Jeremy Renner como Clint Barton / Hawkeye / Ronin</li>​
+                        </p>
+            
+                  </span>
+            </div>
+        <div class="contenedor4">
             <li class="menu-items-detalle"><a href="#recomendaciones" >Recomendaciones</a></li>
-    
+            <span id="recomendaciones">
+                    <div class="grid">
+                            <article>
+                                    <a href="Detalle.html">Jhon Wick</a> 
+                                    <div class="tooltip">
+                                        <span class="tooltiptext" >
+                                            <p style="border: 0">Año:2014</p>
+                                            <p>Clasificación:Mayores de 18</p>
+                                            <p>¡No Toques a su Mascota!</p>
+                                   
+                                        </span> 
+                                        <video class="superior" controls poster="img/john wick.jpg" src="video/johnwick.mp4">
+                                        </video>
+                                     </div>   
+                        
+                            </article>
+                                <article style="align-items: baseline" >
+                                    <a href="Detalle.html">Eternal Sunshine</a> 
+                                        <div class="tooltip" >
+                                            <span class="tooltiptext" >
+                                                <p style="border: 0">Año:2011</p>
+                                                <p>Clasificación:Todo Publico</p>
+                                                <p>Una historia de ciencia ficcion y amor</p>
+                                            </span>
+                                            <video controls class="tooltip superior"   poster="img/EternalSunshine.jpg" src="video/Avengers.mp4">
+                                            </video> 
+                                        </div>   
+                        
+                                 
+                           </article>
+                           <article style="align-items: baseline" >
+                                <a href="Detalle.html">Anger Management</a> 
+                                    <div class="tooltip" >
+                                        <span class="tooltiptext" >
+                                            <p style="border: 0">Año:2009</p>
+                                            <p>Clasificación:Mayores de 13 años</p>
+                                            <p>La ira puede venir de quien menos lo esperas</p>
+                                        </span>
+                                        <video controls class="tooltip superior"  poster="img/anger.jpg" src="video/Avengers.mp4">
+                                        </video> 
+                                    </div>   
+                        
+                             
+                            </article>
+                                            
+                            
+                                </div>
+            </span>
+        </div>    
         </ul> 
          
     </nav> 
@@ -71,14 +170,15 @@
 
 
         </br>
-        <div class="tooltip-detalle">
+        <div >
+        <!-- class="tooltip-detalle"> -->
                 <!-- <span class="tooltiptext-detalle" >
                         <p >Año:2019</p>
                         <p>Clasificación:Todo Publico</p>
                         <p>Los Heroes Mas Poderosos del Planeta</p>
                     </span>   -->
         
-        <video   class="tooltip-detalle"  poster="img/avengers.jpg" src="video/Avengers.mp4" controls autoplay muted loop>
+        <video    id="video-principal"  poster="img/avengers.jpg" src="video/Avengers.mp4" controls autoplay muted loop>
         </video>
 
 
@@ -87,8 +187,7 @@
 
   </section>
 
-  <div class="contenedor1">
-  <section id="info-general">
+   <section class="info-general mobile">
     <h2>Informacion General</h2>
     <p class="texto-detalle"> Avengers: Endgame (Vengadores: Endgame en España)3​ es
          una película de superhéroes estadounidense de 2019 
@@ -105,8 +204,7 @@
      </p>
     </br></br>
   </section>
-</div>
-  <section id="resumen">
+  <section class="resumen">
             <h2>Resumen</h2>
             <p class="texto-detalle">La decimación causada por Thanos ha ocasionado que la mitad de la vida en
                el universo se desintegre y muera. Clint Barton, quien se encontraba bajo
@@ -122,7 +220,7 @@
              </p>
           </section>
         </br></br>
-    <section id="reparto">
+    <section class="reparto">
             <h2>Reparto</h2>
             <p class="texto-detalle">
                     <ul class="texto-detalle-ul">                    
@@ -136,11 +234,11 @@
                     </ul>
     </section>
                 </br></br>
-        <section  id="recomendaciones">
+        <section  class="recomendaciones">
            </br> </br> </br>
             <h1>Recomendaciones</h1>
             <div class="grid">
-                <article>
+                <!-- <article>
                 <a href="Detalle.html">Avengers:Endgame</a> 
                 <div class="tooltip">
                     <span class="tooltiptext" >
@@ -188,8 +286,50 @@
                     <video controls poster="img/avengers.jpg" src="video/Avengers.mp4">
                      </video>
                 
-                    </article>
+                    </article> -->
+                    <article>
+                            <a href="Detalle.html">Jhon Wick</a> 
+                            <div class="tooltip">
+                                <span class="tooltiptext" >
+                                    <p style="border: 0">Año:2014</p>
+                                    <p>Clasificación:Mayores de 18</p>
+                                    <p>¡No Toques a su Mascota!</p>
+                           
+                                </span> 
+                                <video controls poster="img/john wick.jpg" src="video/johnwick.mp4">
+                                </video>
+                             </div>   
                 
+                    </article>
+                        <article style="align-items: baseline" >
+                            <a href="Detalle.html">Eternal Sunshine</a> 
+                                <div class="tooltip" >
+                                    <span class="tooltiptext" >
+                                        <p style="border: 0">Año:2011</p>
+                                        <p>Clasificación:Todo Publico</p>
+                                        <p>Una historia de ciencia ficcion y amor</p>
+                                    </span>
+                                    <video controls class="tooltip"  poster="img/EternalSunshine.jpg" src="video/Avengers.mp4">
+                                    </video> 
+                                </div>   
+                
+                         
+                   </article>
+                   <article style="align-items: baseline" >
+                        <a href="Detalle.html">Anger Management</a> 
+                            <div class="tooltip" >
+                                <span class="tooltiptext" >
+                                    <p style="border: 0">Año:2009</p>
+                                    <p>Clasificación:Mayores de 13 años</p>
+                                    <p>La ira puede venir de quien menos lo esperas</p>
+                                </span>
+                                <video controls class="tooltip"  poster="img/anger.jpg" src="video/Avengers.mp4">
+                                </video> 
+                            </div>   
+                
+                     
+                    </article>
+                       
                 
                     </div>
                 

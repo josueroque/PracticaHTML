@@ -1,14 +1,20 @@
-#info-general{
-    display: none;
+.contenedor1 {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    /* border-bottom: 1px dotted black;  */
+    }
+.contenedor1 #info-general{
+    /* display: none; */
     visibility: hidden;
     width: 85%;
     /* background-color:rgba(44, 11, 119, 0.7); */
     background-color:rgba(255,255,255,0.6);
     color:darkred;
-    
+    width: 300%;
     text-align: center;
     font-size: large;
-    margin-left: 8%;
+    margin-left: -100%;
     margin-right: 5%;
     padding: 0px 0;
     border-radius: 6px;
@@ -17,4 +23,160 @@
     position: absolute;
     z-index: 1;
   
+}
+
+.contenedor1:hover  #info-general {
+    visibility: visible;
+    }
+ 
+ .contenedor2 {
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        /* border-bottom: 1px dotted black;  */
+        }
+
+ .contenedor2 #resumen{
+        /* display: none; */
+        visibility: hidden;
+        width: 85%;
+        /* background-color:rgba(44, 11, 119, 0.7); */
+        background-color:rgba(255,255,255,0.6);
+        color:darkred;
+        width: 500%;
+        text-align: center;
+        font-size: large;
+        margin-left: -200%;
+        margin-right: 5%;
+        padding: 0px 0;
+        border-radius: 6px;
+                   
+      
+        position: absolute;
+        z-index: 1;
+      
+    }
+    
+ .contenedor2:hover  #resumen {
+        visibility: visible;
+        }
+
+.contenedor3 {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    /* border-bottom: 1px dotted black;  */
+    }
+    
+.contenedor3 #reparto{
+    visibility: hidden;
+    width: 85%;
+    /* background-color:rgba(44, 11, 119, 0.7); */
+    background-color:rgba(255,255,255,0.6);
+    color:darkred;
+    width: 500%;
+    text-align: center;
+    font-size: large;
+    margin-left: -200%;
+    margin-right: 5%;
+    padding: 0px 0;
+    border-radius: 6px;
+               
+  
+    position: absolute;
+    z-index: 1;
+}
+        
+.contenedor3:hover  #reparto {
+    visibility: visible;
+}        
+
+.contenedor4 .grid{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contenedor4 {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    /* border-bottom: 1px dotted black;  */
+    }
+    
+.contenedor4 #recomendaciones{
+    /* display: none; */
+    visibility: hidden;
+    width: 85%;
+    /* background-color:rgba(44, 11, 119, 0.7); */
+    background-color:rgba(255,255,255,0.6);
+    color:darkred;
+    width: 500%;
+    text-align: center;
+    font-size: large;
+    margin-left: -50vw;
+    margin-right: 5%;
+    padding: 0px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    }
+        
+.contenedor4:hover  #recomendaciones {
+    visibility: visible;
+}
+
+.info-general{
+    display: none;
+    visibility: hidden;
+}
+.resumen{
+    display: none;
+    visibility: hidden;
+}
+.reparto{
+    display: none;
+    visibility: hidden;
+}
+
+.recomendaciones{
+    display: none;
+    visibility: hidden;
+}
+
+
+
+@media all and (max-width: 1024px) {
+.grid video .superior{
+    width: 30vw;
+}
+.contenedor4 #recomendaciones{
+    margin-left: -70vw;
+}
+.info-general{
+    display: block;
+    visibility: visible;}
+.resumen{
+    display: block;
+    visibility: visible;}
+.reparto{
+    display: block;
+    visibility: visible;}
+
+.recomendaciones{
+    display: block;
+    visibility: visible;
+}
+}
+#video-principal{
+width: 75%;
+margin-left: 10%;
+height: 60%;
+}
+
+@media all and (max-width: 480px)
+{
+     #video-principal{
+        
+    width: 85vw;
+    margin-left: 5%;
+    }
 }
