@@ -7,6 +7,10 @@
 
 
 .header{
+ 
+  /* background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; */
      height: 10vh;   
     display: flex;
     flex-direction: column;
@@ -28,7 +32,7 @@
   .header > h1 >span{
   display: block;
   font-weight: 700;
-  font-family: juego-tronos;
+  font-family: 'Times New Roman';
   }
 
 
@@ -73,4 +77,13 @@
     100%{margin-left: -300% ;}
   
     
+  }
+
+  @media all and (max-width: 768px) {
+  .navbar-detalle{
+z-index: 1;
+background: blue;
+  }
+
+
   }

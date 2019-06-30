@@ -18,19 +18,22 @@ input:valid ~ span:after {
     position: absolute;
 } */
 
+
+
 .navbar{
 
-    background-color: White;
+    background-color:white;
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 1;
     display: flex;
     align-items: center;
+    
     }
     .menu{
         list-style-type: none;
-    margin: 0;
+        margin: 0;
         flex:1 100%;
 
         display: flex;
@@ -45,10 +48,14 @@ input:valid ~ span:after {
             font-weight: bold;
     }
     .menu-items >a:hover{
-        text-decoration: none;
+        /* text-decoration: none;
         color:azure;
-        background-color :#2a0f6b;
-    }
+        background-color :#2a0f6b; */
+        /* color: azure; */
+        background-color:rgb(230, 70, 59);
+        color:white;
+        transition: all 1s ease-in;
+     }
 
     .logo{
        /*  align-self:center; */ 
@@ -57,7 +64,7 @@ input:valid ~ span:after {
     flex: 150px;
     margin-left: 1rem;
     margin-top: 1vw;
-    font-family: juego-tronos, 'Times Mew Roman';
+    /* font-family:  'Times Mew Roman'; */
         
 }
 .logo img{
@@ -108,13 +115,14 @@ input:valid ~ span:after {
   }
   
   @media all and (max-width: 768px) {
-   
+ 
     .navbar-detalle{
       visibility: hidden;
     }
 
     .navbar {
-      width: 40%;
+      width:40%;
+ 
     }
   
     .menu {
@@ -122,28 +130,30 @@ input:valid ~ span:after {
       flex-direction: column;
       margin-top: 51px;
       height: 100vh;
+  
       justify-content: flex-start;
       background-color: var(--text-color);
       padding-left: 0;
+   
     }
     
     .menu li a {
       color: var(--bg-color);
       text-align: center;
+      
     }
   
     .navbar .logo {
       position: fixed;
       top: 0;
       left: 0;
-      width: 50%;
+      width: 100%;
       text-align: center;
       background-color: white;
       height: 51px;
       line-height: 51px;
-      font-size: 1.5em;
-      margin-left: 25%;
-      /* margin: 0; */
+      /* font-size: 1.5em; */
+      margin: 0;
     
     }
   
@@ -175,7 +185,7 @@ input:valid ~ span:after {
       content: "";
       position: absolute;
       background: gray;
-      width: 1em;
+      width: 0.75em;
       height: .15em;
       left: .1em;
       top: .25em;
